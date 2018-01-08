@@ -20,7 +20,6 @@ git push origin master
 ```
 * Tienes que completar el mayor número de etapas que puedas, algunas son extras y estan marcadas como tal. 
 
-
 **Preparando el desafío** 
 
 1. Tienes que hacer un **fork** de este proyecto.
