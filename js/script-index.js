@@ -8,7 +8,8 @@ $(document).ready( function(){
 
 $(document).ready(function printNews(){
 	$("p").append("<i>NUEVAS RECETAS</i>");
-}):
+	
+});
 
 
 /*
@@ -17,6 +18,14 @@ $(document).ready(function printNews(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
+	var size = recipesArray.length;
+	for (i =0 ; i<=size ;i++){
+		if(recipesArray[i].highlighted){
+			renderRecipe(recipesArray[i]);
+			/*console.log(recipesArray[i].title);*/
+		}
+	}
+
 }
 
 /*
