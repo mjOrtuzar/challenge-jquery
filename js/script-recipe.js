@@ -1,4 +1,4 @@
 $(document).ready( function(){
-    $("#recipe-menu").hide()
+    $("#recipe-menu").hide();
+});
 
-})
